@@ -1,4 +1,4 @@
-# Video Store Project (SQL)
+# Video Store Project
 
 <img align="right" src="https://user-images.githubusercontent.com/98825216/157320837-5dd59ff2-8a2c-4b3d-94ee-a43d1cebbdb1.jpg" alt="Video Store">
 
