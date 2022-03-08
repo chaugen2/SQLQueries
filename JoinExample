@@ -1,0 +1,12 @@
+SQL Query with Join:
+* Used to determine the top 10 countries with the most customers.
+
+SELECT D. country,
+    COUNT(customer_id)
+FROM customer A
+INNER JOIN address B on A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+GROUP BY country
+ORDER by count DESC
+LIMIT 10
