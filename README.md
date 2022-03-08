@@ -1,1 +1,1 @@
-# SQLQueries
+# Video Store Project (SQL)
