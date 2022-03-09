@@ -1,0 +1,39 @@
+SQL Query with Join:
+* One of the primary goals of this project was to determine where in the world the video store customers are based.
+* The stakeholder wanted to know the top ten countries and then the top cities in those countries.
+
+* This is the code for determining the top ten countries:
+
+ SELECT D. country,
+     COUNT(customer_id)
+ FROM customer A
+ INNER JOIN address B on A.address_id = B.address_id
+ INNER JOIN city C ON B.city_id = C.city_id
+ INNER JOIN country D ON C.country_id = D.country_id
+ GROUP BY country
+ ORDER by count DESC
+ LIMIT 10
+ 
+ * This query indicates that China, the US, Japan, Mexico, the Russian Federration, the Philippines, Turkey, and Indonesia are the top 10 countries.
+ * This is the code to determine the top ten cities in those countries:
+ 
+SELECT
+C.city,
+COUNT(customer_id) AS top_customers
+FROM customer A
+INNER JOIN address B on A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+WHERE country IN ('India',
+				 'China',
+				 'United States',
+				 'Japan',
+				 'Mexico',
+				 'Brazil',
+				 'Russian Federation',
+				 'Philippines',
+				 'Turkey',
+				 'Indonesia')
+GROUP BY C.city
+ORDER BY top_customers DESC
+LIMIT 10
