@@ -8,6 +8,10 @@ ___
 
 ### Objective:
 Propose a strategy for the a new online video service, based on customer base and movie collection.
+______
+
+### Data:
+[Data Dictionary](https://docs.google.com/document/d/1gC8ZGOrlza3LNiTO-ZraGf0EXKJ4709mDJYGPd7wV1U/edit) developed for this project.
 _____
 
 ### Tools:
