@@ -11,7 +11,7 @@ Propose a strategy for engaging customers for the a new online video service, ba
 ______
 
 ### Data:
-[Data Dictionary](caitlinhaugen.com/wp-content/uploads/2022/03/Rockbuster-Data-Dictionary-Haugen.pdf) developed for this project.
+[Data Dictionary](http://caitlinhaugen.com/wp-content/uploads/2022/03/Rockbuster-Data-Dictionary-Haugen.pdf) developed for this project.
 _____
 
 ### Tools:
