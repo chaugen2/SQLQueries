@@ -12,7 +12,7 @@ ______
 
 ### Data:
 * [Data Dictionary](http://caitlinhaugen.com/wp-content/uploads/2022/03/Rockbuster-Data-Dictionary-Haugen.pdf) 
-* [Data Files] (https://github.com/chaugen2/VideoStoreProject-SQL/tree/main/Data%20File%20-%20Rockbuster%20Video%20Store)
+* [Data Files](https://github.com/chaugen2/VideoStoreProject-SQL/tree/main/Data%20File%20-%20Rockbuster%20Video%20Store)
 _____
 
 ### Tools:
