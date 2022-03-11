@@ -3,11 +3,11 @@
 <img align="right" src="https://user-images.githubusercontent.com/98825216/157320837-5dd59ff2-8a2c-4b3d-94ee-a43d1cebbdb1.jpg" alt="Video Store">
 
 ### Overview:
-The management team of a fictional video store is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive. 
+A video store is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive. 
 ___
 
 ### Objective:
-Propose a strategy for the a new online video service, based on customer base and movie collection.
+Propose a strategy for engaging customers for the a new online video service, based on customer behavior and movie collection.
 ______
 
 ### Data:
